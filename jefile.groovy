@@ -49,7 +49,7 @@ pipeline
         script
         {
           sh "echo 'One, two, three...'";
-          sh "sudo echo '=1=' && whoami && pwd";
+          sh "echo '=1=' && whoami && pwd";
         }
       }
     }
@@ -91,7 +91,7 @@ pipeline
         {
           currentBuild.result = "SUCCESS";
           sh "echo 'Four, five, six...'";
-          sh "sudo echo '=2=' && whoami && pwd";
+          sh "echo '=2=' && whoami && pwd";
         }
       }
     }
