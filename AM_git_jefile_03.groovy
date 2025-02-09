@@ -75,7 +75,8 @@ println("==== (AM) Start script... ====");
 ***************************************************************************** */
 pipeline
 {
-  agent { label "virt-Ubu18" }
+  //agent { label "virt-Ubu18" }
+  agent any
 
   parameters
   {
